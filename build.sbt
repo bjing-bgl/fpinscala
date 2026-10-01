@@ -8,7 +8,8 @@ lazy val root = (project in file("."))
 
 lazy val exercises = (project in file("exercises"))
   .settings(
-    name := "exercises"
+    name := "exercises",
+    libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.17" % Test
   )
 
 lazy val answers = (project in file("answers"))
