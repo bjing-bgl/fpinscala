@@ -2,7 +2,6 @@
 *.swp
 tags
 target
-project/boot
 .history
 project.vim
 *.old
@@ -12,3 +11,6 @@ project.vim
 .metadata/
 .bsp
 .metals
+.bloop/
+project/
+.vscode/
